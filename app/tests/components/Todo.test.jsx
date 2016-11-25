@@ -25,7 +25,7 @@ describe('Todo', () => {
 
     expect(spy).toHaveBeenCalledWith({
       type: 'TOGGLE_TODO',
-      ID: todoData.id
+      id: todoData.id
     });
   });
 });
